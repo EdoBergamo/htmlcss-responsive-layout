@@ -5,4 +5,93 @@
     box-sizing: border-box;
 }
 
+/* Common */
+.btn {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    height: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
 
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 132, 253, 1);
+    color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+header nav {
+    padding: 1.5rem 2.5rem;
+}
+
+header nav ul li {
+    margin: 0 0.5rem;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header span i {
+    color: #fff;
+}
+
+header span:hover .hamburger-menu {
+    display: inline-block;
+}
+
+.hamburger-menu {
+    display: inline-block;
+}
+
+.open {
+    list-style-type: none;
+    color: #fff;
+    padding: 1rem;
+    display: none;
+}
+
+header span ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-menu {
+    background-color: #fff;
+    color: #000;
+}
