@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Base Style */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* Common */
 .btn {
     border: none;
@@ -433,4 +438,47 @@ footer .container-1000 {
 
 footer .container-1000 div {
     padding-top: 6rem;
+}
+
+/* Media Query - Tablet */
+@media screen and (min-width:768px) {
+    #app div {
+        justify-content: space-between;
+    }
+
+    #app .container {
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .card-app {
+        width: calc((100% - 2rem) / 3);
+    }
+
+    .card-app:first-child {
+        width: calc((100% - 1rem) / 3 * 2);
+    }
+
+    .card-testimonial {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #benefits .container div.flex {
+        gap: 2rem;
+    }
+
+    #benefits .container .card-benefit {
+        width: calc((100% - 2rem) / 2);
+    }
+
+    .text-about-us {
+        width: 65%;
+        padding-right: 5rem;
+    }
+
+    .image-about-us {
+        width: 35%;
+    }
 }
