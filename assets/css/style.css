@@ -263,3 +263,48 @@ header span ul li a {
 .testimonial-card-text {
     padding: 0 1.5rem;
 }
+
+#benefits {
+    background-color: rgba(151, 146, 228, 1);
+    padding: 2.5rem;
+}
+
+#benefits .container > h2 {
+    color: #fff;
+    padding-bottom: 2.5rem;
+}
+
+.card-benefit {
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.card-benefit h2,
+.card-benefit h3 {
+    color: rgba(151, 146, 228, 1);
+}
+
+.card-benefit h2 {
+    font-size: 4rem;
+    padding: 1rem 0 3rem 0;
+}
+
+.card-benefit h3 {
+    font-size: 2rem;
+}
+
+.card-benefit p {
+    padding: 3rem 0;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.btn-magenta {
+    background-color: rgba(151, 146, 228, 1);
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
