@@ -482,3 +482,58 @@ footer .container-1000 div {
         width: 35%;
     }
 }
+
+/* Media Query - Desktop */
+@media screen and (min-width:992px) {
+    .hamburger-menu {
+        display: none;
+    }
+
+    .open {
+        display: flex;
+    }
+
+    .open li a:not(.btn.btn-menu) {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .card-app img {
+        width: 40%;
+    }
+
+    .text-card {
+        width: 60%;
+    }
+
+    .card-app:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #planning div.justify-between {
+        display: flex;
+        gap: 5rem;
+    }
+
+    #planning,
+    #benefits,
+    #testimonials {
+        padding-bottom: 1rem;
+    }
+
+    #benefits .container .card-benefit {
+        width: calc((100% - 4rem) / 3);
+    }
+
+    footer .container-1000 {
+        padding: 1.5rem 4rem;
+        text-align: center;
+    }
+
+    footer .container-1000 div {
+        padding-top: 3rem;
+    }
+}
