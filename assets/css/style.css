@@ -308,3 +308,57 @@ header span ul li a {
     color: #fff;
     letter-spacing: 0.2rem;
 }
+#about-us {
+    padding: 4.5rem 1.5rem 7rem 1.5rem;
+}
+
+#about-us h2 {
+    padding-bottom: 4rem;
+    color: rgba(151, 146, 228, 1);
+    font-size: 4.5rem;
+}
+
+#about-us p {
+    color: grey;
+}
+
+.text-about-us,
+.image-about-us {
+    padding: 0.5rem;
+}
+
+.container-image-about-us {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.container-image-about-us i {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    color: rgba(151, 146, 228, 1);
+    font-size: 4rem;
+}
+
+.image-about-us i {
+    padding-right: 0.5rem;
+}
+
+.container-image-about-us img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1.5rem 0;
+}
+
+.image-about-us h3 {
+    color: rgba(151, 146, 228, 1);
+    font-size: 3rem;
+    line-height: 140%;
+    padding-bottom: 2.5rem;
+}
+
+.image-about-us a {
+    letter-spacing: 0;
+}
