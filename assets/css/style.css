@@ -27,6 +27,12 @@ img {
     padding: 0 1.5rem;
 }
 
+.container-1000 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
 .flex {
     display: flex;
 }
@@ -37,6 +43,10 @@ img {
 
 .items-center {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* Header */
@@ -94,4 +104,162 @@ header span ul li a {
 .btn-menu {
     background-color: #fff;
     color: #000;
+}
+
+/* Main */
+#app {
+    padding: 2.5rem;
+}
+
+.card-app {
+    width: 100%;
+    background-color: rgba(181, 221, 255, 1);
+    line-height: 140%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.card-app:first-child {
+    padding-bottom: 0;
+}
+
+.card-app img {
+    padding-top: 3rem;
+    display: block;
+}
+
+.card-app h3 {
+    color: rgba(0, 132, 253, 1);
+    text-align: left;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-app h3:not(:first-child) {
+    padding-bottom: 1.5rem;
+}
+
+.card-app p {
+    text-align: center;
+}
+
+.card-app .text-card p {
+    padding: 1.5rem 0 3rem 0;
+}
+
+.card-app .text-card h3,
+.card-app .text-card p {
+    text-align: left;
+}
+
+.icon-big {
+    color: rgba(0, 132, 253, 1);
+    font-size: 7rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#planning {
+    background-color: rgba(151, 146, 228, 1);
+    padding: 6rem 2rem;
+}
+
+#planning .card-planning:first-child {
+    color: #fff;
+}
+
+#planning .card-planning:first-child p {
+    line-height: 160%;
+    padding-bottom: 2rem;
+}
+
+.card-planning h2 {
+    font-size: 3rem;
+    padding: 6rem 0 2.5rem 0;
+}
+
+#planning h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+#planning .card-planning:last-child {
+    background-color: #fff;
+    border-radius: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#planning .card-planning:last-child img {
+    padding: 2rem 2rem;
+}
+
+#planning .card-planning:last-child p {
+    text-align: center;
+    padding: 0 2rem 3rem 2rem;
+}
+
+.arrow-planning {
+    background-color: rgba(151, 146, 228, 1);
+    color: #000;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#testimonials {
+    padding: 2.5rem;
+}
+
+.testimonials-text {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.testimonials-text h3 {
+    color: rgba(151, 146, 228, 1);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.testimonials-text h5 {
+    font-weight: 400;
+}
+
+.card-testimonial {
+    background-color: rgba(151, 146, 228, 1);
+    color: #fff;
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.card-testimonial img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.card-testimonial p {
+    padding-bottom: 1.5rem;
+}
+
+.card-testimonial .fa-quote-left {
+    padding-right: 0.5rem;
+}
+
+.card-testimonial .fa-quote-right {
+    padding-left: 0.5rem;
+}
+
+.testimonial-card-text {
+    padding: 0 1.5rem;
 }
